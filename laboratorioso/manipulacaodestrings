@@ -1,0 +1,12 @@
+${nome:0:4} - imprime uma string a partir de um determinado caractere e vai até o deslocamento determinado
+ex.: alex.salgado
+     0123
+     
+${nome:5:7} - imprime uma string a partir de um determinado caractere(sem ser o inicial) e vai até o deslocamento determinado.
+ex.: alex.salgado
+         51234567
+         
+${nome#*.} - imprime todos os caracteres a partir do ponto.
+ex.: alex.salgado
+          1234567
+          
